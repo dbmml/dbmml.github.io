@@ -115,6 +115,20 @@
 
 		}
 
+		// Navlink.
+			var $navlink = $('#navlink');
+
+			if ($navlink.length > 0) {
+				// Links.
+					var $navlink_a = $navlink.find('a');
+
+					$navlink_a
+						.scrolly({
+							speed: 1000,
+							offset: function() { return $navlink.height(); }
+						})
+			}
+
 	// Scrolly.
 		$('.scrolly').scrolly({
 			speed: 1000
