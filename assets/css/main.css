@@ -3783,3 +3783,15 @@ input, select, textarea {
 			}
 
 		}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapsible {
+	font-size: 90%;
+	color: rgb(107, 71, 151);
+}
+
+.content {
+  overflow: hidden;
+	max-height: 0;
+  transition: max-height 0.2s ease-out;
+}

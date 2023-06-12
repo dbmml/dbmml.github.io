@@ -33,7 +33,7 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#about" class="active">About</a></li>
-							<li><a href="#schedule">Schedule</a></li>
+							<li><a href="#schedule">Programme</a></li>
 							<li><a href="#speakers">Speakers</a></li>
 							<li><a href="#organisers">Organisers</a></li>
 							<li><a href="#location">Location</a></li>
@@ -87,78 +87,174 @@
 							<section id="schedule" class="main special">
 								<span class="image main"><img src="images/portico2.png" alt="Photo of the main campus of University College London, with the university logo in the top right corner." /></span>
 								<header class="major">
-									<h2>Tentative schedule</h2>
+									<h2>Programme</h2>
 								</header>
+								<h2>Tuesday 27 June</h2>
 								<div class="table-wrapper">
 									<table>
 										<tbody>
 											<tr>
-												<td colspan="2"><h3>Tuesday 27 June</h3></td>
-												<td colspan="2"><h3>Wednesday 28 June</h3></td>
-											</tr>
-											<tr>
-												<td>10:00–10:30</td>
-												<td><em>Registration and morning coffee</em></td>
-												<td>10:00–10:30</td>
-												<td><em>Morning coffee</em></td>
+												<td width=15%>10:00–10:30</td>
+												<td colspan="2">☕ Registration and morning coffee</td>
 											</tr>
 											<tr>
 												<td>10:30–10:45</td>
-												<td>Welcome from the organisers</td>
-												<td>10:30–11:15</td>
-												<td>Long talk</td>
+												<td>👋 Welcome from the organisers</td>
 											</tr>
 											<tr>
 												<td>10:45–11:30</td>
-												<td>Long talk</td>
-												<td>11:15–12:00</td>
-												<td>Long talk</td>
+												<td align="left"><em>Scaling up kernel-based structured output prediction with low-rank approaches.</em>
+												<br><b>Florence d'Alché-Buc</b> (Télécom Paris, Institut Polytechnique de Paris)</td>
 											</tr>
 											<tr>
 												<td>11:30–12:15</td>
-												<td>Long talk</td>
-												<td>12:00–13:30</td>
-												<td><em>Lunch</em></td>
+												<td align="left"><em>Generalised Bayesian Inference for Intractable Likelihoods.</em>
+												<br><b>Takuo Matsubara</b> (The Alan Turing Institute & Newcastle University)
+												<br><a class="collapsible">[show abstract]</a>
+													<div class="content">
+														Generalised Bayesian inference updates prior beliefs using a loss function, rather than a likelihood, and can therefore be used to confer robustness against possible misspecification of the likelihood. Here we consider generalised Bayesian inference with a Stein discrepancy as a loss function, motivated by applications in which the likelihood contains an intractable normalisation constant. In this context, the Stein discrepancy circumvents evaluation of the normalisation constant and produces generalised posteriors that are either closed form or accessible using standard Markov chain Monte Carlo. On a theoretical level, we show consistency, asymptotic normality, and bias-robustness of the generalised posterior, highlighting how these properties are impacted by the choice of Stein discrepancy. Then, we provide numerical experiments on a range of intractable distributions, including applications to kernel-based exponential family models and non-Gaussian graphical models.
+													</div>
+												</td>
 											</tr>
 											<tr>
 												<td>12:15–13:30</td>
-												<td><em>Lunch</em></td>
-												<td>13:30-14:50</td>
-												<td>Four short talks</td>
+												<td>🥗 Lunch</td>
 											</tr>
 											<tr>
 												<td>13:30-14:15</td>
-												<td>Long talk</td>
-												<td>14:50-15:20</td>
-												<td><em>Afternoon coffee</em></td>
+												<td align="left"><em>Label Shift Quantification via Distribution Feature Matching.</em>
+												<br><b>Badr-Eddine Chérief-Abdellatif</b> (Sorbonne Université & Université Paris Cité)
+												<br><a class="collapsible">[show abstract]</a>
+													<div class="content">
+														Quantification learning deals with the task of estimating the target label distribution under label shift. In this talk, we present a unifying framework, distribution feature matching (DFM), that recovers as particular instances various estimators introduced in previous literature. We derive a general performance bound for DFM procedures and extend this analysis to study robustness of DFM procedures in the misspecified setting under departure from the exact label shift hypothesis, in particular in the case of contamination of the target by an unknown distribution. We also illustrate the theoretical results with a numerical study.
+													</div>
+												</td>
 											</tr>
 											<tr>
-												<td>14:15-15:15</td>
-												<td>Three short talks</td>
-												<td>15:30-16:15</td>
-												<td>Long talk</td>
+												<td>14:15-14:35</td>
+												<td align="left"><em>TBD.</em>
+												<br><b>Masha Naslidnyk</b> (University College London)
+												</td>
+											</tr>
+											<tr>
+												<td>14:35-14:55</td>
+												<td align="left"><em>TBD.</em>
+												<br><b>Oscar Key</b> (University College London)
+												</td>
+											</tr>
+											<tr>
+												<td>14:55-15:15</td>
+												<td align="left"><em>TBD.</em>
+												<br><b>Antonin Schrab</b> (University College London)
+												</td>
 											</tr>
 											<tr>
 												<td>15:15-15:45</td>
-												<td><em>Afternoon coffee</em></td>
-												<td>16:15-17:00</td>
-												<td>Long talk</td>
+												<td>☕ Afternoon coffee</td>
 											</tr>
 											<tr>
 												<td>15:45-16:15</td>
-												<td>Poster session</td>
+												<td>🪧 Poster session</td>
 											</tr>
 											<tr>
-												<td>16:20-16:40</td>
-												<td>Short talk</td>
+												<td>16:15-17:00</td>
+												<td align="left"><em>Variational Gradient Descent using Local Linear Models.</em>
+												<br><b>Song Liu</b> (University of Bristol)
+												<br><a class="collapsible">[show abstract]</a>
+													<div class="content">
+														Stein Variational Gradient Descent (SVGD) can transport particles along trajectories that reduce the KL divergence between the target and particle distribution but requires the target score function to compute the update. We introduce a new perspective on SVGD that views it as a local estimator of the reversed KL gradient flow. This perspective inspires us to propose new estimators that use local linear models to achieve the same purpose. The proposed estimators can be computed using only samples from the target and particle distribution without needing the target score function. Our proposed variational gradient estimators utilize local linear models, resulting in computational simplicity while maintaining effectiveness comparable to SVGD in terms of estimation biases. Additionally, we demonstrate that under a mild assumption, the estimation of high-dimensional gradient flow can be translated into a lower-dimensional estimation problem, leading to improved estimation accuracy. We showcase our proposed estimator by transporting non-smiling images in celebA dataset to mimic the distribution of smiling images. The resulting algorithm (dubbed SmileVGD) shows promising performance when transporting images.
+													</div>
+												</td>
 											</tr>
 											<tr>
-												<td>16:45-17:30</td>
-												<td>Long talk</td>
+												<td>17:00-17:45</td>
+												<td align="left"><em>Convergence control with kernel Stein discrepancies.</em>
+												<br><b>Alessandro Barp</b> (University of Cambridge)
+												<br><a class="collapsible">[show abstract]</a>
+													<div class="content">
+														Maximum mean discrepancies (MMDs) like the kernel Stein discrepancy (KSD) have grown central to a wide range of applications, including hypothesis testing, sampler selection, distribution approximation, and variational inference. In each setting, these kernel-based discrepancy measures are required to (i) separate a target P from other probability measures or even (ii) control weak convergence to P. In this talk we discuss the geometry of KSDs and derive sufficient and necessary conditions to ensure (i) and (ii) hold. In particular we obtain the first KSDs known to exactly metrize weak convergence to P. We highlight the implications of our results for hypothesis testing, measuring and improving sample quality, and sampling with Stein variational gradient descent.
+													</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+								<br>
+								<h2>Wednesday 28 June</h2>
+								<div class="table-wrapper">
+									<table>
+										<tbody>
+											<tr>
+												<td width=15%>10:00–10:30</td>
+												<td>☕ Morning coffee</td>
 											</tr>
 											<tr>
-												<td>17:30-18:15</td>
-												<td>Long talk</td>
+												<td>10:30–11:15</td>
+												<td align="left"><em>Using Stein characterisations of network models for goodness-of-fit and data generation.</em>
+												<br><b>Gesine Reinert</b> (University of Oxford)
+												<br><a class="collapsible">[show abstract]</a>
+													<div class="content">
+														Synthetic data are increasingly used in statistics and machine learning. A particularly challenging type of data  are graphs, to  represent complex dependence structures. Hence methods for generating synthetic data, and for assessing their quality,  are much in demand. Distributions of random networks can be characterised using Stein’s method. This talk details how these characterisations can be put to use for assessing goodness of fit  and also how to generate synthetic data.
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td>11:15–12:00</td>
+												<td align="left"><em>Make Stein’s method great again for generative modelling?</em>
+												<br><b>Yingzhen Li</b> (Imperial College London)
+												<br><a class="collapsible">[show abstract]</a>
+													<div class="content">
+														My original motivation for studying Stein’s method for ML was to better train deep generative models. Indeed, methods based on Stein discrepancy — a clever way to address the intractability issues for score-matching — had initial success in training generative models back in a few years ago. But since late 2019, Fisher divergence & demonising methods for score-matching have taken off for large-scale deep generative models, which leads to what we know as score-based generative models (and diffusion models) today in the wave of Generative AI. So in this talk I’m going to speculate on what needs to be addressed if we want to make Stein’s method great again for training score-based generative models. It’s possible that Stein discrepancy is less well suited for this purpose, but at least we should try to understand why.
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td>12:00–13:30</td>
+												<td>🥗 Lunch</td>
+											</tr>
+											<tr>
+												<td>13:30-13:50</td>
+												<td align="left"><em>TBD.</em>
+												<br><b>Matías Altamirano</b> (University College London)
+												</td>
+											</tr>
+											<tr>
+												<td>13:50-14:10</td>
+												<td align="left"><em>TBD.</em>
+												<br><b>Wilson Chen</b> (University of Sydney)
+												</td>
+											</tr>
+											<tr>
+												<td>14:10-14:30</td>
+												<td align="left"><em>TBD.</em>
+												<br><b>Anum Fatima</b> (University of Oxford)
+												</td>
+											</tr>
+											<tr>
+												<td>14:30-14:50</td>
+												<td align="left"><em>TBD.</em>
+												<br><b>Andersen Ang</b> (University of Southampton)
+												</td>
+											</tr>
+											<tr>
+												<td>14:50-15:15</td>
+												<td>☕ Afternoon coffee</td>
+											</tr>
+											<tr>
+												<td>15:15-16:00</td>
+												<td align="left"><em>Merging Rates of Opinions via Optimal Transport on Random Measures.</em>
+												<br><b>Marta Catalano</b> (University of Warwick)
+												<br><a class="collapsible">[show abstract]</a>
+													<div class="content">
+														The Bayesian approach to inference is based on a coherent probabilistic framework that naturally leads to principled uncertainty quantification and prediction. Via conditional (or posterior) distributions, Bayesian nonparametric models make inference on parameters belonging to infinite-dimensional spaces, such as the space of probability distributions. The development of Bayesian nonparametrics has been triggered by the Dirichlet process, a nonparametric prior that allows one to learn the law of the observations through closed-form expressions. Still, its learning mechanism is often too simplistic and many generalizations have been proposed to increase its flexibility, a popular one being the class of normalized completely random measures. Here we investigate a simple yet fundamental matter: will a different prior actually guarantee a different learning outcome? To this end, we develop a new distance between completely random measures based on optimal transport, which provides an original framework for quantifying the similarity between posterior distributions (or merging of opinions). Our findings provide neat and interpretable insights on the impact of popular Bayesian nonparametric priors, avoiding the usual restrictive assumptions on the data-generating process.
+													</div>
+												</td>
+											</tr>
+											<tr>
+												<td>16:00-16:45</td>
+												<td align="left"><em>TBD.</em>
+												<br><b>Cristopher Salvi</b> (Imperial College London)
+												</td>
 											</tr>
 										</tbody>
 									</table>
