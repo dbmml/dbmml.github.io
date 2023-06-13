@@ -146,6 +146,12 @@
 												<td>14:55-15:15</td>
 												<td align="left"><em>TBD.</em>
 												<br><b>Antonin Schrab</b> (University College London)
+												<br><a class="collapsible">[show abstract]</a>
+													<div class="content">
+														We propose two novel nonparametric two-sample kernel tests based on the Maximum Mean Discrepancy (MMD). First, for a fixed kernel, we construct an MMD test using either permutations or a wild bootstrap, two popular numerical procedures to determine the test threshold. We prove that this test controls the probability of type I error non-asymptotically.
+														Hence, it can be used reliably even in settings with small sample sizes as it remains well-calibrated, which differs from previous MMD tests which only guarantee correct test level asymptotically. When the difference in densities lies in a Sobolev ball, we prove minimax optimality of our MMD test with a specific kernel depending on the smoothness parameter of the Sobolev ball. In practice, this parameter is unknown and, hence, the optimal MMD test with this particular kernel cannot be used. To overcome this issue, we construct an aggregated test, called MMDAgg, which is adaptive to the smoothness parameter. The test power is maximised over the collection of kernels used, without requiring held-out data for kernel selection (which results in a loss of test power), or arbitrary kernel choices such as the median heuristic. We prove that MMDAgg still controls the level non-asymptotically, and achieves the minimax rate over Sobolev balls, up to an iterated logarithmic term.
+														Our guarantees are not restricted to a specific type of kernel, but hold for any product of one-dimensional translation invariant characteristic kernels. We provide a user-friendly parameter-free implementation of MMDAgg using an adaptive collection of bandwidths. We demonstrate that MMDAgg significantly outperforms alternative state-of-the-art MMD-based two-sample tests on synthetic data satisfying the Sobolev smoothness assumption, and that, on real-world image data, MMDAgg closely matches the power of tests leveraging the use of models such as neural networks.
+													</div>
 												</td>
 											</tr>
 											<tr>
@@ -222,18 +228,33 @@
 												<td>13:50-14:10</td>
 												<td align="left"><em>TBD.</em>
 												<br><b>Wilson Chen</b> (University of Sydney)
+											<br><a class="collapsible">[show abstract]</a>
+												<div class="content">
+													Stein discrepancies have emerged as a powerful tool for retrospective improvement of Markov chain Monte Carlo output. However, the question of how to design Markov chains that are well-suited to such post-processing has yet to be addressed. This work studies Stein importance sampling, in which weights are assigned to the states visited by a Pi-invariant Markov chain to obtain a consistent approximation of P, the intended target.
+													Surprisingly, the optimal choice of Pi is not identical to the target P; we therefore propose an explicit construction for Pi based on a novel variational argument. Explicit conditions for convergence of Stein Pi-Importance Sampling are established. For 70% of tasks in the PosteriorDB benchmark, a significant improvement over the analogous post-processing of P-invariant Markov chains is reported..
+												</div>
 												</td>
 											</tr>
 											<tr>
 												<td>14:10-14:30</td>
-												<td align="left"><em>TBD.</em>
+												<td align="left"><em>Stein’s Method for Erdös-Rényi Mixture Graph Models.</em>
 												<br><b>Anum Fatima</b> (University of Oxford)
+												<br><a class="collapsible">[show abstract]</a>
+													<div class="content">
+														In many real world networks the vertices are heterogeneous and the edge probabilities differ between pairs of vertices within the network. The Erdös-Rényi Mixture Graph (ERMG) models accommodate such heterogeneity by assuming that the vertices appear in blocks and the edge probabilities within each block and across the blocks depend on the block membership of the vertices involved. In an ERMG we assume that block membership and the edge probabilities, within and across blocks, are known for all vertices and for all blocks.
+														In this work we derive a Stein equation for an ERMG model and obtain a bound on the solution of our Stein equation. Using our Stein equation and the bound, we bound a distance between an ERMG model and an Erdös-Rényi model, an Exponential Random Graph Model (ERGM) and other Erdös-Rényi Mixture Graph models. For an application of our bounds, we use Political blog data from Adamic & Glance (2004) and Florentine Marriage data to give numerical bounds.
+														We are further exploring a goodness-of-fit test for the ERMG model using a kernel Stein discrepancy, which is a Monte Carlo test based on the simulated networks. Our test statistics are derived using a divergence constructed using Stein’s method and a discrete Stein operator for the ERMG model taking a reproducing kernel Hilbert space as our Stein class. Xu & Reinert (2021) used this technique to develop a goodness-of-fit test for ERGM.
+													</div>
 												</td>
 											</tr>
 											<tr>
 												<td>14:30-14:50</td>
-												<td align="left"><em>TBD.</em>
+												<td align="left"><em>Nonnegative Matrix Factorization in Wasserstein distances for source separation.</em>
 												<br><b>Andersen Ang</b> (University of Southampton)
+												<br><a class="collapsible">[show abstract]</a>
+													<div class="content">
+														We consider single-channel (sc) audio blind source separtation (ABSS) via nonnegative matrix factorization (NMF), i.e., given a single measurement of mixed audio recording of multiple musical instruments, we wish to obtain the audio track of each indivudal instrument using NMF. sc-ABSS problem and solving sc-ABSS using NMF is not new, but existing works assume the data is "nice: the data is in a Euclidean space and the NMF method can be used. In this talk we focus on a more practical situation that, due to measurement error, the recording exhibits a misallignment in the frequency spectrum that makes traditional NMF fail. We address this problem using 1-dimensional Wasserstein transformation, and then casting the resulting model as an nonconvex non-smooth non-proximable optimizaiton problem and solved using block coordinate descent with proximal averaging.
+													</div>
 												</td>
 											</tr>
 											<tr>
