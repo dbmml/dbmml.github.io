@@ -3790,6 +3790,11 @@ input, select, textarea {
 	color: rgb(107, 71, 151);
 }
 
+.video {
+	font-size: 90%;
+	color: rgb(107, 71, 151);
+}
+
 .content {
   overflow: hidden;
 	max-height: 0;
